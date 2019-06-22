@@ -2,7 +2,7 @@
 class Artist
   attr_accessor :name, :songs
 
-    @@all_songs = []
+    @@songs = []
 
   def initialize(name)
     @name = name
@@ -20,7 +20,7 @@ class Artist
   end
 
   def self.song_count
-    @all_songs.map do {|song| song.artist = @artist}
+    @
   end
 
 end
