@@ -1,7 +1,7 @@
 
 class Post
 
-  attr_accessor :title, :author
+  attr_accessor :title, :author #adding author here is how you show it belongs to an author
 
   @@all = []
 
