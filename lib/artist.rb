@@ -23,6 +23,7 @@ class Artist
     @all_songs.collect do |song|
       count if song.artist = @artist
     end
+    end
 
   end
 
