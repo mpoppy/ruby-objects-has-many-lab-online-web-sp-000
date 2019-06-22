@@ -21,7 +21,6 @@ class Artist
 
   def self.song_count
     @all_songs.map do {|song| if song.artist = @artist}
-
   end
 
 end
