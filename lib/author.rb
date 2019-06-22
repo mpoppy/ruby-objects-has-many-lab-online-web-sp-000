@@ -13,6 +13,6 @@ class Author
   end
 
   def add_post(post)
-    
+    author.post
   end
 end
