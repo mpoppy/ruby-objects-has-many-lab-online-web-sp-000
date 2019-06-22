@@ -20,7 +20,7 @@ class Artist
 
   def self.song_count
     # binding.pry
-    Song.all
+    Song.all map {|song| song.name == Artist}
   end
 
 end
