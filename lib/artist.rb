@@ -18,7 +18,7 @@ class Artist
   end
 
   def self.song_count
-    Song.class_variable_get(:all)
+    Song.class_variable_get(:all_song)
   end
 
 end
