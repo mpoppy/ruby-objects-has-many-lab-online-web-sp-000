@@ -20,7 +20,7 @@ class Artist
 
   def self.song_count
     # binding.pry
-    @songs.sum(&:size)
+    Song.all
   end
 
 end
