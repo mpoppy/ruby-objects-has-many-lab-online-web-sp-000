@@ -19,7 +19,7 @@ class Post
   end
 
   def author_name
-    @author.name = self
+    Author.name = self
   end
 
 
