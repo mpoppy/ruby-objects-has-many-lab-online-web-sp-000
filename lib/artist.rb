@@ -20,7 +20,9 @@ class Artist
   end
 
   def self.song_count
-    Song(:all)
+    @all_songs.collect do |song|
+      count if song.artist = @artist
+    end
 
   end
 
